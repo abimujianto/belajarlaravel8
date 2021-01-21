@@ -1,0 +1,15 @@
+- @yield(content) = blade template engine laravel
+- @section('content') = untuk inject html 
+- @endsection = penutup @section
+- @extends('layout.app') = untuk memberitahukan file ini extends pada file tersebut 
+  masukkan parameter berupa lokasi
+- cara instal laravel jetstream = composer require laravel/jetstream
+- instal livewire = php artisan jetstream:instal livewire
+- instal node module dan jalankan npm run dev untuk menggunakan livewire
+- php artisan migrate = untuk migrate db yg sudah di tulis di app ke db
+- php artisan make:livewire posts = untuk bikin komponen view posts
+- php artisan make:migration create_posts_table = bikin table db lewat migration
+- php artisan make:model Post = bikin model Post Huruf depan kapital dan singular
+- protected $table = untuk mencocokan model yang telah dibikin dengan table db yang mana
+- protected $fillable = ['title', etc] = untuk memasukkan data ke db apa aja
+- bikin controller = seperti comment di controller
